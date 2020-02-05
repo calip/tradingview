@@ -6,25 +6,25 @@ More information about Trading View [Click Here](https://id.tradingview.com/widg
 
 ## Usage
 ## Syntax
-Default: {inserttradingview symbol="AAPL"}
+- Default: {inserttradingview symbol="AAPL"}
 
-Hover: {tradingviewhover symbol="AAPL"}
+- Hover: {tradingviewhover symbol="AAPL"}
 
-Advance: {inserttradingview symbol="AAPL" type="candle" theme="light" timeframe="daily"}
+- Advance: {inserttradingview symbol="AAPL" type="candle" theme="light" timeframe="daily"}
 
 ## Available Type value:
-candle
-line
-bar
-area
-renko
-kagi
+- candle
+- line
+- bar
+- area
+- renko
+- kagi
 
 ## Available Theme value:
-light
-dark
+- light
+- dark
 
 ## Available Timeframe value:
-daily
-weekly
-monthly
+- daily
+- weekly
+- monthly

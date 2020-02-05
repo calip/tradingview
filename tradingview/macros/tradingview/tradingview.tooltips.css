@@ -1,0 +1,70 @@
+/**
+ * Trading View - macro class
+ * 
+ * TradingView is a financial platform for self-directed traders and investors.
+ * 
+ * @copyright 2020 Beplas Studio
+ *
+ * @license MIT
+ *
+ * @package tradingview
+ * @version 1.0
+ * @author  Beplas Studio <alip@beplasstudio.com>
+ * @link    https://beplasstudio.com/
+ */
+#tradingview-link {
+    color: #71c8fd; 
+    font-size: 16px; 
+    font-weight: 600;
+}
+#tradingview-tooltip
+{   text-shadow: 0 1px rgba( 0, 0, 0, .5 );
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top: 1px solid #fff;
+   -webkit-box-shadow: 0px 0px 10px 1px rgba(214,214,214,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(214,214,214,1);
+    box-shadow: 0px 0px 10px 1px rgba(214,214,214,1);
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+#tradingview-tooltip:after
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    border-top-color: rgba( 255, 255, 255, 1 );
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+#tradingview-tooltip.top:after
+{
+    border-top-color: transparent;
+    border-bottom: 10px solid #000;
+    border-bottom-color: rgba( 0, 0, 0, 1 );
+    top: -20px;
+    bottom: auto;
+}
+#tradingview-tooltip.left:after
+{
+    left: 10px;
+    margin: 0;
+}
+#tradingview-tooltip.right:after
+{
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+

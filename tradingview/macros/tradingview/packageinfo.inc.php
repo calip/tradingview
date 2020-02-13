@@ -3,7 +3,7 @@
 $name = 'Trading View';
 $type = 'macro';
 $guid = '0eaa8228-e83c-e9e4-cdf9-c65212e3b3a9';
-$version = '1.0';
+$version = '1.0.1';
 $license = 'MIT';
 $description = 'TradingView is a financial platform for self-directed traders and investors.';
 $author = 'Beplas Studio';

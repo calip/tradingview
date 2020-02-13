@@ -6,11 +6,9 @@ More information about Trading View [Click Here](https://id.tradingview.com/widg
 
 ## Usage
 ## Syntax
-- Default: {inserttradingview symbol="AAPL"}
+- Default: {{AAPL}}
 
-- Hover: {tradingviewhover symbol="AAPL"}
-
-- Advance: {inserttradingview symbol="AAPL" type="candle" theme="light" timeframe="daily"}
+- Advance: {{AAPL title="Apple" type="candle" theme="light" timeframe="daily" hover="true"}}
 
 ## Available Type value:
 - candle
